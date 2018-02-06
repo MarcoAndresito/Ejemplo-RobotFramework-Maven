@@ -1,0 +1,7 @@
+*** Settings ***
+Library  SeleniumLibrary
+
+*** Test Cases ***
+My Test
+   Open Browser  https://www.facebook.com  Chrome
+   Close Browser
